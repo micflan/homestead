@@ -15,7 +15,11 @@ folders:
       to: /home/vagrant/dot
 
 sites:
-    - map: __NAME__.local
+    - map: api.__NAME__.dev
+      to: /home/vagrant/Code/laravel/public
+      
+sites:
+    - map: __NAME__.dev
       to: /home/vagrant/Code/laravel/public
 
 variables:
